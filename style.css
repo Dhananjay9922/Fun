@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/roses.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1{
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 15%;
+    font-weight: bolder;  
+    background: url(Images/dhananjay.jpeg);
+    background-clip: text;
+    background-size: 10% auto;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: animate 8s alternate infinite;
+}
+@keyframes animate {
+    from {
+        background-position: 0% 30%;
+    }
+    to{
+        background-position: 30% 50%;
+    }
+}
+.btn1{
+    position: relative;
+    width: 200px;
+    height: 80px;
+    margin-left: 80%;
+    margin-top: 7%;
+    border-radius: 70px;
+    background-color: #8a1e1ed5;
+    color: azure;
+    font-size: xx-large;
+    font-weight: 50px;
+}
